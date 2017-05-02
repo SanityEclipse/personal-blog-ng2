@@ -1,5 +1,5 @@
 
-  <h2> Blog Entry 1</h2>
+  <!-- <h2> Blog Entry 1</h2>
   <h4>mm/dd/yyyy</h4>
   <p>Blog content goes here</p>
   <hr>
@@ -17,4 +17,10 @@
   <h2> Blog Entry 4</h2>
   <h4>mm/dd/yyyy</h4>
   <p>Blog content goes here</p>
+  <hr> -->
+<div *ngFor="let entry of entries">
+  <h2> {{ entry.title }} </h2>
+  <h4> {{ entry.date }} </h4>
+  <p> {{ entry.content }}</p>
   <hr>
+</div>
