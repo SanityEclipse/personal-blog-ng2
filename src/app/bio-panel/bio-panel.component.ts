@@ -10,6 +10,7 @@ export class BioPanelComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
