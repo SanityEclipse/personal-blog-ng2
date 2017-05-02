@@ -1,27 +1,28 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Injectable } from '@angular/core';
 
-import { Entry } from '../entries';
+import { Entry } from '../entry';
+import { EntryService } from '../entry.service';
+
 
 @Component({
   selector: 'app-blog-entry',
   templateUrl: './blog-entry.component.html',
-  styleUrls: ['./blog-entry.component.css']
+  styleUrls: ['./blog-entry.component.css'],
+  providers: [EntryService]
 })
 export class BlogEntryComponent implements OnInit {
 
-  entries = [
-    new Entry('blog 1', '11/21/2012', 'blog content goes here'),
-    new Entry('blog 2', '01/01/2014', 'blog content goes here'),
-    new Entry('blog 3', '05/7/2017', 'blog content goes here')
+  entries: Entry[];
 
-  ];
+  constructor(private entryService: EntryService) { }
 
+  getEntries(): void {
+    this.entryService.getEntries()
+    .then(entries => this.entries= entries)
+  }
 
-
-  constructor() { }
-
-  ngOnInit() {
-
+  ngOnInit(): void {
+    this.getEntries(); 
   }
 
 }
