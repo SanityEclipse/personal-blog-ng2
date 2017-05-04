@@ -1,7 +1,9 @@
 #master-div {
-  margin: 25px;
+  margin: 20px;
   background-color: #1c233a;
-  border:1px solid white;
+  border:2px solid white;
+  border-radius: 5px;
+  font-family: 'Ramaraja', serif;
 }
 
 header {
@@ -13,7 +15,7 @@ aside {
 }
 
 section {
-  background-color:#2f4073;
+  background-color:#aa6f39;
 }
 
 article {
