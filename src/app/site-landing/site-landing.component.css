@@ -1,7 +1,25 @@
 #master-div {
   margin: 25px;
+  background-color: #1c233a;
+  border:1px solid white;
 }
 
 header {
-  
+
+}
+
+aside {
+  margin-top:1.5%;
+}
+
+section {
+  background-color:#2f4073;
+}
+
+article {
+
+}
+
+footer {
+
 }

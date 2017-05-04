@@ -1,30 +1,24 @@
 
-<div class="container-fluid" style="background-color: #1c233a; border:1px solid white" id="master-div">
+<div class="container-fluid" id="master-div">
 
   <header>
     <app-header-nav></app-header-nav>
   </header>
 
-  <div class="row" style="background-color:#2f4073">
+  <section class="row">
 
-    <aside class="col-xs-3" style="margin-top:1.5%">
-      <nav class="navbar navbar-default navbar-fixed-side" style="background-color:#3a56ab; color: white">
+    <aside class="col-xs-3">
         <app-bio-panel></app-bio-panel>
-      </nav>
     </aside>
 
     <article class="col-xs-9">
       <app-blog-entry></app-blog-entry>
     </article>
 
-  </div>
+  </section>
 
   <footer>
-    <nav class="navbar navbar-default navbar-fixed-bottom" style="background-color: #1c233a">
-      <div class="container">
-        <app-footer-nav></app-footer-nav>
-      </div>
-    </nav>
+    <app-footer-nav></app-footer-nav>
   </footer>
 
 </div>
