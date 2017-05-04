@@ -2,21 +2,31 @@
   margin-top:12%;
   height:200px;
   width:200px;
-  border: 1px solid white;
+  border: 2px solid white;
+  border-radius: 5px;
 }
 
 .icon-styling {
   height: 65px;
   width: 65px;
   display: inline-block;
+
 }
 
 button {
+  border: 2px solid #3a56ab;
   background: none;
-  border: none;
+  border-radius: 5px;
 }
 
 button:hover {
   background-color: black;
-  border: 1px solid white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+nav {
+  border: 2px solid white;
+  background-color:#3a56ab;
+  color: white;
 }

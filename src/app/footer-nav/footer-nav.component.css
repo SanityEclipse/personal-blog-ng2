@@ -1,4 +1,8 @@
 p {
-  color: #ffbd2d;; 
+  color: #ffbd2d;
   margin-top:1.25%;
+}
+
+nav {
+  background-color: #1c233a;
 }
