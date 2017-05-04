@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "deploy": "git push origin master && git push heroku master",
     "ng": "ng",
+    "postinstall": "ng build --aot -prod",
     "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
