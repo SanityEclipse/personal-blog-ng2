@@ -1,10 +1,9 @@
 #master-div {
   margin: 20px;
   background-color: #1c233a;
-  border:2px solid white;
+  border:2px solid #3a56ab;
   border-radius: 5px;
-  font-family: 'Ramaraja', serif;
-}
+  font-family: 'Titillium Web', sans-serif;}
 
 header {
 

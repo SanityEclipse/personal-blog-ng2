@@ -1,7 +1,9 @@
 h1 {
-  color: blue;
+  color: #ffbd2d;
+  padding-bottom: 10px;
+  padding-right: 10px;
 }
 
 #header-nav {
-  border-bottom: 2px solid white
+  border-bottom: 2px solid #3a56ab;
 }

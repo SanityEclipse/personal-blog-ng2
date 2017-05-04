@@ -1,18 +1,18 @@
 h2 {
-  color: #aa6f39;
-}
-
-h4 {
-  color: #fec241;
-}
-
-p {
   color: #4472fd;
 }
 
+h4 {
+  color: #aa6f39;
+}
+
+p {
+  color: black;
+}
+
 div {
-  background-color: white;
-  border: 2px solid lightblue;
+  background-color: #fcefe2;
+  border: 2px solid #3a56ab;
   border-radius: 5px;
   padding: 10px;
   margin-top: 2%;
