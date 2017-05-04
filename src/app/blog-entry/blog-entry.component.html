@@ -1,5 +1,6 @@
   <div *ngFor="let entry of entries">
     <h2> {{ entry.title }} </h2>
     <h4> Posted on {{ entry.date }} </h4>
-    <p> {{ entry.content }}</p>
+    <h3> {{ entry.objective }} </h3>
+    <p [innerHTML]='entry.content'></p>
   </div>

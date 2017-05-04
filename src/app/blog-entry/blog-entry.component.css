@@ -2,12 +2,17 @@ h2 {
   color: #4472fd;
 }
 
+h3 {
+  text-align: center;
+}
+
 h4 {
   color: #aa6f39;
 }
 
 p {
   color: black;
+  text-indent: 30px;
 }
 
 div {
